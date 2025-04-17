@@ -144,7 +144,7 @@ def handle_packet(packet):
     detect_arp_spoof(packet)
 
 def start_idps():
-    print("[*] IDPS is running. Monitoring all major DoS and MITM attacks...")
+    print("[*] IDPS is running. Monitoring all Attacks...")
     sniff(prn=handle_packet, store=0)
 
 if __name__ == "__main__":
